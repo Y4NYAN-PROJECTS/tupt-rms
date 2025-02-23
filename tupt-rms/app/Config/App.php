@@ -17,7 +17,7 @@ class App extends BaseConfig
      * E.g., http://example.com/
      */
 
-    public string $baseURL = 'https://tupt-rms.com/';
+    public string $baseURL = 'https://seashell-rail-443729.hostingersite.com/';
     // public string $baseURL = 'http://172.34.22.83:8080/';
 
     /**

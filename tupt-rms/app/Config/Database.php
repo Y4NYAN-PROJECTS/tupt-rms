@@ -29,9 +29,9 @@ class Database extends Config
     public array $default = [
         'DSN' => '',
         'hostname' => 'localhost',
-        'username' => 'u191356414_admnhonorio',
+        'username' => 'u191356414_admin_honorio',
         'password' => 'Tr9!Gv2#_2024',
-        'database' => 'u191356414_db_tuptrms',
+        'database' => 'u191356414_tup_db',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
