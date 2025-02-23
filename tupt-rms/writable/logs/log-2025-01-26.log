@@ -1,0 +1,366 @@
+INFO - 2025-01-26 13:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 13:42:36 --> ErrorException: Undefined variable $title
+in APPPATH\Views\Index\Pages\login.php on line 16.
+ 1 APPPATH\Views\Index\Pages\login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\login.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/Index/Pages/login', [], true)
+ 5 APPPATH\Controllers\MainController.php(119): view('/Index/Pages/login', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MainController->Login('25')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-26 13:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 13:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:01:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 14:10:04 --> ErrorException: Undefined array key "admn_firstname"
+in APPPATH\Views\Admin\Pages\profile.php on line 186.
+ 1 APPPATH\Views\Admin\Pages\profile.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "admn_firstname"', 'C:\\xampp\\htdocs\\employee_project\\app\\Views\\Admin\\Pages\\profile.php', 186)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\employee_project\\app\\Views\\Admin\\Pages\\profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/Admin/Pages/profile', [], true)
+ 5 APPPATH\Controllers\AdminController.php(312): view('/Admin/Pages/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->AccountProfilePage()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-26 14:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 14:23:39 --> ErrorException: Undefined array key "validation"
+in APPPATH\Controllers\AdminController.php on line 289.
+ 1 APPPATH\Controllers\AdminController.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "validation"', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 289)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->AccountProfilePage()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-26 14:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 14:24:45 --> ErrorException: Undefined array key "validation"
+in APPPATH\Controllers\AdminController.php on line 289.
+ 1 APPPATH\Controllers\AdminController.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "validation"', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 289)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->AccountProfilePage()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-26 14:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 14:28:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/AdminController/AccountProfilePage#change-password.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/AdminController/AccountProfilePage#change-password.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/AdminController/AccountProfilePage#change-password', [], true)
+ 3 APPPATH\Controllers\AdminController.php(321): view('/AdminController/AccountProfilePage#change-password')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->AccountChangePasswordPage()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-26 14:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 14:30:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/AdminController/AccountProfilePage#change-password.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/AdminController/AccountProfilePage#change-password.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/AdminController/AccountProfilePage#change-password', [], true)
+ 3 APPPATH\Controllers\AdminController.php(321): view('/AdminController/AccountProfilePage#change-password')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->AccountChangePasswordPage()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-26 14:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 14:32:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/AdminController/AccountProfilePage.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/AdminController/AccountProfilePage.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/AdminController/AccountProfilePage', [], true)
+ 3 APPPATH\Controllers\AdminController.php(321): view('/AdminController/AccountProfilePage')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->AccountChangePasswordPage()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-26 14:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 14:32:58 --> ErrorException: Undefined array key "validation"
+in APPPATH\Controllers\AdminController.php on line 289.
+ 1 APPPATH\Controllers\AdminController.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "validation"', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 289)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->AccountProfilePage()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-26 14:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 14:35:48 --> ErrorException: Undefined array key "validation"
+in APPPATH\Controllers\AdminController.php on line 289.
+ 1 APPPATH\Controllers\AdminController.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "validation"', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 289)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->AccountProfilePage()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-26 14:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 14:37:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/AdminController/profile#change-password.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/AdminController/profile#change-password.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/AdminController/profile#change-password', [], true)
+ 3 APPPATH\Controllers\AdminController.php(351): view('/AdminController/profile#change-password')
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->AccountChangePasswordPage()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-26 14:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 14:44:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/Admin/Pages/profile#change-password.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Admin/Pages/profile#change-password.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/Admin/Pages/profile#change-password', [], true)
+ 3 APPPATH\Controllers\AdminController.php(343): view('/Admin/Pages/profile#change-password', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->AccountChangePasswordPage()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-26 14:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 14:44:37 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\AdminController.php on line 326.
+ 1 APPPATH\Controllers\AdminController.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 326)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->AccountChangePasswordPage()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-26 14:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 14:54:16 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\Admin\Pages\profile.php on line 186.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/Admin/Pages/profile', [], true)
+ 4 APPPATH\Controllers\AdminController.php(318): view('/Admin/Pages/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->AccountProfilePage()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-26 14:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 14:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 14:54:58 --> Error: Call to a member function hasError() on string
+in APPPATH\Views\Admin\Pages\profile.php on line 324.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/Admin/Pages/profile', [], true)
+ 4 APPPATH\Controllers\AdminController.php(318): view('/Admin/Pages/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->AccountProfilePage()
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-26 15:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-26 15:30:15 --> ErrorException: Undefined array key "validation"
+in APPPATH\Controllers\AdminController.php on line 289.
+ 1 APPPATH\Controllers\AdminController.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "validation"', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 289)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->AccountProfilePage()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-01-26 15:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-26 15:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

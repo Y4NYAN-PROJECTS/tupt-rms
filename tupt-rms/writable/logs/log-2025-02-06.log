@@ -1,0 +1,738 @@
+INFO - 2025-02-06 00:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 00:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-06 00:09:34 --> ErrorException: Undefined variable $analytics
+in APPPATH\Views\Employee\Pages\dashboard.php on line 32.
+ 1 APPPATH\Views\Employee\Pages\dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $analytics', 'C:\\xampp\\htdocs\\employee_project\\app\\Views\\Employee\\Pages\\dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\employee_project\\app\\Views\\Employee\\Pages\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/Employee/Pages/dashboard', [], true)
+ 5 APPPATH\Controllers\EmployeeController.php(32): view('/Employee/Pages/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->DashboardPage()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-06 13:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 13:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-06 16:03:54 --> ErrorException: unlink(C:\xampp\htdocs\employee_project\writable\debugbar/debugbar_1738828984.449612.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\employee_project\\writable\\debugbar/debugbar_1738828984.449612.json): No such file or directory', 'C:\\xampp\\htdocs\\employee_project\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Collectors\\History.php', 80)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(80): unlink('C:\\xampp\\htdocs\\employee_project\\writable\\debugbar/debugbar_1738828984.449612.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(498): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1738829033.239573', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(475): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-06 16:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-06 16:04:14 --> ErrorException: unlink(C:\xampp\htdocs\employee_project\writable\debugbar/debugbar_1738828999.444933.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\employee_project\\writable\\debugbar/debugbar_1738828999.444933.json): No such file or directory', 'C:\\xampp\\htdocs\\employee_project\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Collectors\\History.php', 80)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(80): unlink('C:\\xampp\\htdocs\\employee_project\\writable\\debugbar/debugbar_1738828999.444933.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(498): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1738829053.738936', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(475): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-06 16:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-06 16:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-02-06 16:15:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-02-06 16:15:28 --> 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2f9e1e2373esm2981552a91.37 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [202.90.138.28]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [202.90.138.28]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK 98e67ed59e1d1-2f9e1e2373esm2981552a91.37 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. 98e67ed59e1d1-2f9e1e2373esm2981552a91.37 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. 98e67ed59e1d1-2f9e1e2373esm2981552a91.37 - gsmtp
+
+quit: 221 2.0.0 closing connection 98e67ed59e1d1-2f9e1e2373esm2981552a91.37 - gsmtp
+
+CRITICAL - 2025-02-06 16:15:52 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Filters\RegistrationFilter.php on line 41.
+ 1 APPPATH\Filters\RegistrationFilter.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Filters\\RegistrationFilter.php', 41)
+ 2 SYSTEMPATH\Filters\Filters.php(184): App\Filters\RegistrationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('MainController/OTPVerificationPage', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:15:58 --> ErrorException: Undefined variable $title
+in APPPATH\Views\Index\Pages\register.php on line 16.
+ 1 APPPATH\Views\Index\Pages\register.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/Index/Pages/register', [], true)
+ 5 APPPATH\Controllers\MainController.php(243): view('/Index/Pages/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MainController->Registration()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:16:01 --> ErrorException: Undefined variable $title
+in APPPATH\Views\Index\Pages\register.php on line 16.
+ 1 APPPATH\Views\Index\Pages\register.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/Index/Pages/register', [], true)
+ 5 APPPATH\Controllers\MainController.php(243): view('/Index/Pages/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MainController->Registration()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:16:27 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Filters\RegistrationFilter.php on line 41.
+ 1 APPPATH\Filters\RegistrationFilter.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Filters\\RegistrationFilter.php', 41)
+ 2 SYSTEMPATH\Filters\Filters.php(184): App\Filters\RegistrationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('MainController/OTPVerificationPage', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:16:30 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Filters\RegistrationFilter.php on line 41.
+ 1 APPPATH\Filters\RegistrationFilter.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Filters\\RegistrationFilter.php', 41)
+ 2 SYSTEMPATH\Filters\Filters.php(184): App\Filters\RegistrationFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(475): CodeIgniter\Filters\Filters->run('MainController/OTPVerificationPage', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-06 16:17:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-02-06 16:17:35 --> 220 smtp.gmail.com ESMTP d2e1a72fcca58-73048a9d1desm717904b3a.23 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [202.90.138.28]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [202.90.138.28]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK d2e1a72fcca58-73048a9d1desm717904b3a.23 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. d2e1a72fcca58-73048a9d1desm717904b3a.23 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. d2e1a72fcca58-73048a9d1desm717904b3a.23 - gsmtp
+
+quit: 221 2.0.0 closing connection d2e1a72fcca58-73048a9d1desm717904b3a.23 - gsmtp
+
+CRITICAL - 2025-02-06 16:17:35 --> ErrorException: Undefined variable $title
+in APPPATH\Views\Index\Pages\register.php on line 16.
+ 1 APPPATH\Views\Index\Pages\register.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/Index/Pages/register', [], true)
+ 5 APPPATH\Controllers\MainController.php(243): view('/Index/Pages/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MainController->Registration()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:17:43 --> ErrorException: Undefined variable $title
+in APPPATH\Views\Index\Pages\register.php on line 16.
+ 1 APPPATH\Views\Index\Pages\register.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/Index/Pages/register', [], true)
+ 5 APPPATH\Controllers\MainController.php(243): view('/Index/Pages/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MainController->Registration()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:17:43 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\MainController.php on line 338.
+ 1 APPPATH\Controllers\MainController.php(338): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\MainController.php', 338)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MainController->VerifyOTP()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:18:07 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\MainController.php on line 338.
+ 1 APPPATH\Controllers\MainController.php(338): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\MainController.php', 338)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MainController->VerifyOTP()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:18:37 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\MainController.php on line 338.
+ 1 APPPATH\Controllers\MainController.php(338): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\MainController.php', 338)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MainController->VerifyOTP()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:18:45 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\MainController.php on line 338.
+ 1 APPPATH\Controllers\MainController.php(338): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\MainController.php', 338)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MainController->VerifyOTP()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-06 16:19:12 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-02-06 16:19:12 --> 220 smtp.gmail.com ESMTP 41be03b00d2f7-ad51aeb8d09sm683588a12.15 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [202.90.138.28]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [202.90.138.28]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK 41be03b00d2f7-ad51aeb8d09sm683588a12.15 - gsmtp
+
+to: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. 41be03b00d2f7-ad51aeb8d09sm683588a12.15 - gsmtp
+
+The following SMTP error was encountered: 555-5.5.2 Syntax error, cannot decode response. For more information, go to
+555-5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321
+555 5.5.2 specifications. 41be03b00d2f7-ad51aeb8d09sm683588a12.15 - gsmtp
+
+quit: 221 2.0.0 closing connection 41be03b00d2f7-ad51aeb8d09sm683588a12.15 - gsmtp
+
+CRITICAL - 2025-02-06 16:21:32 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\MainController.php on line 339.
+ 1 APPPATH\Controllers\MainController.php(339): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\MainController.php', 339)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MainController->VerifyOTP()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:29:10 --> ErrorException: Undefined variable $isinserted
+in APPPATH\Controllers\AdminController.php on line 1205.
+ 1 APPPATH\Controllers\AdminController.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isinserted', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 1205)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->SavePDS()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:29:21 --> ErrorException: Undefined variable $isinserted
+in APPPATH\Controllers\AdminController.php on line 1205.
+ 1 APPPATH\Controllers\AdminController.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isinserted', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 1205)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->SavePDS()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:29:27 --> ErrorException: Undefined variable $isinserted
+in APPPATH\Controllers\AdminController.php on line 1205.
+ 1 APPPATH\Controllers\AdminController.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isinserted', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 1205)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->SavePDS()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:29:33 --> ErrorException: Undefined variable $isinserted
+in APPPATH\Controllers\AdminController.php on line 1205.
+ 1 APPPATH\Controllers\AdminController.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isinserted', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 1205)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->SavePDS()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:29:38 --> ErrorException: Undefined variable $isinserted
+in APPPATH\Controllers\AdminController.php on line 1205.
+ 1 APPPATH\Controllers\AdminController.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isinserted', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 1205)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->SavePDS()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:32:36 --> ErrorException: Undefined variable $isinserted
+in APPPATH\Controllers\AdminController.php on line 1205.
+ 1 APPPATH\Controllers\AdminController.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isinserted', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 1205)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->SavePDS()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:32:47 --> ErrorException: Undefined variable $isinserted
+in APPPATH\Controllers\AdminController.php on line 1205.
+ 1 APPPATH\Controllers\AdminController.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isinserted', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 1205)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->SavePDS()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-06 16:37:25 --> API Request failed: 56 : 
+CRITICAL - 2025-02-06 16:37:29 --> CodeIgniter\HTTP\Exceptions\HTTPException: 56 : 
+in SYSTEMPATH\HTTP\CURLRequest.php on line 695.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(695): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('56', '')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://psgc.gitlab.io/api/cities-municipalities/137605000/barangays/')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://psgc.gitlab.io/api/cities-municipalities/137605000/barangays/', [])
+ 5 APPPATH\Controllers\EmployeeController.php(1803): CodeIgniter\HTTP\CURLRequest->get('https://psgc.gitlab.io/api/cities-municipalities/137605000/barangays/')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->fetchDataBarangay('137605000')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:37:48 --> CodeIgniter\HTTP\Exceptions\HTTPException: 56 : 
+in SYSTEMPATH\HTTP\CURLRequest.php on line 695.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(695): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('56', '')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://psgc.gitlab.io/api/cities-municipalities/137607000/barangays/')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://psgc.gitlab.io/api/cities-municipalities/137607000/barangays/', [])
+ 5 APPPATH\Controllers\EmployeeController.php(1803): CodeIgniter\HTTP\CURLRequest->get('https://psgc.gitlab.io/api/cities-municipalities/137607000/barangays/')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->fetchDataBarangay('137607000')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:38:14 --> CodeIgniter\HTTP\Exceptions\HTTPException: 56 : 
+in SYSTEMPATH\HTTP\CURLRequest.php on line 695.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(695): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('56', '')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://psgc.gitlab.io/api/cities-municipalities/137607000/barangays/')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://psgc.gitlab.io/api/cities-municipalities/137607000/barangays/', [])
+ 5 APPPATH\Controllers\EmployeeController.php(1803): CodeIgniter\HTTP\CURLRequest->get('https://psgc.gitlab.io/api/cities-municipalities/137607000/barangays/')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->fetchDataBarangay('137607000')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-06 16:38:43 --> API Request failed: 56 : 
+CRITICAL - 2025-02-06 16:39:15 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 692.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-06 16:40:09 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 692.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2025-02-06 16:40:09 --> API Request failed: 56 : Recv failure: Connection was reset
+ERROR - 2025-02-06 16:40:09 --> API Request failed: 56 : Recv failure: Connection was reset
+ERROR - 2025-02-06 16:40:09 --> API Request failed: 56 : Recv failure: Connection was reset
+ERROR - 2025-02-06 16:40:09 --> API Request failed: 56 : Recv failure: Connection was reset
+ERROR - 2025-02-06 16:40:09 --> API Request failed: 56 : Recv failure: Connection was reset
+ERROR - 2025-02-06 16:40:09 --> API Request failed: 56 : Recv failure: Connection was reset
+CRITICAL - 2025-02-06 16:40:09 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 134.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-06 16:40:09 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 134.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-06 16:41:45 --> ErrorException: Undefined variable $isinserted
+in APPPATH\Controllers\AdminController.php on line 1205.
+ 1 APPPATH\Controllers\AdminController.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isinserted', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 1205)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->SavePDS()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:41:51 --> ErrorException: Undefined variable $isinserted
+in APPPATH\Controllers\AdminController.php on line 1205.
+ 1 APPPATH\Controllers\AdminController.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isinserted', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 1205)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->SavePDS()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:42:00 --> ErrorException: Undefined variable $isinserted
+in APPPATH\Controllers\AdminController.php on line 1205.
+ 1 APPPATH\Controllers\AdminController.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isinserted', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 1205)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->SavePDS()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:43:17 --> CodeIgniter\HTTP\Exceptions\HTTPException: 56 : 
+in SYSTEMPATH\HTTP\CURLRequest.php on line 695.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(695): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('56', '')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(387): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(145): CodeIgniter\HTTP\CURLRequest->send('get', 'https://psgc.gitlab.io/api/cities-municipalities/137604000/barangays/')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(180): CodeIgniter\HTTP\CURLRequest->request('get', 'https://psgc.gitlab.io/api/cities-municipalities/137604000/barangays/', [])
+ 5 APPPATH\Controllers\EmployeeController.php(1803): CodeIgniter\HTTP\CURLRequest->get('https://psgc.gitlab.io/api/cities-municipalities/137604000/barangays/')
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->fetchDataBarangay('137604000')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-06 16:43:23 --> API Request failed: 56 : 
+CRITICAL - 2025-02-06 16:44:16 --> ErrorException: Undefined variable $isinserted
+in APPPATH\Controllers\AdminController.php on line 1205.
+ 1 APPPATH\Controllers\AdminController.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isinserted', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 1205)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->SavePDS()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:45:29 --> ErrorException: Undefined variable $isinserted
+in APPPATH\Controllers\AdminController.php on line 1205.
+ 1 APPPATH\Controllers\AdminController.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isinserted', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 1205)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->SavePDS()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:47:41 --> ErrorException: Undefined variable $isinserted
+in APPPATH\Controllers\AdminController.php on line 1205.
+ 1 APPPATH\Controllers\AdminController.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isinserted', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 1205)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->SavePDS()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:47:44 --> ErrorException: Undefined variable $isinserted
+in APPPATH\Controllers\AdminController.php on line 1205.
+ 1 APPPATH\Controllers\AdminController.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isinserted', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 1205)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->SavePDS()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:50:51 --> ErrorException: Undefined variable $isinserted
+in APPPATH\Controllers\AdminController.php on line 1205.
+ 1 APPPATH\Controllers\AdminController.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isinserted', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 1205)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->SavePDS()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:52:49 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployeeController.php on line 1283.
+ 1 APPPATH\Controllers\EmployeeController.php(1283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\EmployeeController.php', 1283)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->SaveFile()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:52:53 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployeeController.php on line 1283.
+ 1 APPPATH\Controllers\EmployeeController.php(1283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\EmployeeController.php', 1283)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->SaveFile()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:52:56 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployeeController.php on line 1283.
+ 1 APPPATH\Controllers\EmployeeController.php(1283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\EmployeeController.php', 1283)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->SaveFile()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:53:03 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployeeController.php on line 1283.
+ 1 APPPATH\Controllers\EmployeeController.php(1283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\EmployeeController.php', 1283)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->SaveFile()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:53:08 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployeeController.php on line 1283.
+ 1 APPPATH\Controllers\EmployeeController.php(1283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\EmployeeController.php', 1283)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->SaveFile()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:58:14 --> ErrorException: Undefined variable $title
+in APPPATH\Views\Index\Pages\register.php on line 16.
+ 1 APPPATH\Views\Index\Pages\register.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/Index/Pages/register', [], true)
+ 5 APPPATH\Controllers\MainController.php(243): view('/Index/Pages/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MainController->Registration()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:58:18 --> ErrorException: Undefined variable $title
+in APPPATH\Views\Index\Pages\register.php on line 16.
+ 1 APPPATH\Views\Index\Pages\register.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/Index/Pages/register', [], true)
+ 5 APPPATH\Controllers\MainController.php(243): view('/Index/Pages/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MainController->Registration()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:58:20 --> ErrorException: Undefined variable $title
+in APPPATH\Views\Index\Pages\register.php on line 16.
+ 1 APPPATH\Views\Index\Pages\register.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/Index/Pages/register', [], true)
+ 5 APPPATH\Controllers\MainController.php(243): view('/Index/Pages/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MainController->Registration()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:58:24 --> ErrorException: Undefined variable $title
+in APPPATH\Views\Index\Pages\register.php on line 16.
+ 1 APPPATH\Views\Index\Pages\register.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/Index/Pages/register', [], true)
+ 5 APPPATH\Controllers\MainController.php(243): view('/Index/Pages/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MainController->Registration()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:59:15 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployeeController.php on line 1283.
+ 1 APPPATH\Controllers\EmployeeController.php(1283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\EmployeeController.php', 1283)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->SaveFile()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:59:17 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployeeController.php on line 1283.
+ 1 APPPATH\Controllers\EmployeeController.php(1283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\EmployeeController.php', 1283)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->SaveFile()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:59:19 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployeeController.php on line 1283.
+ 1 APPPATH\Controllers\EmployeeController.php(1283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\EmployeeController.php', 1283)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->SaveFile()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 16:59:20 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployeeController.php on line 1283.
+ 1 APPPATH\Controllers\EmployeeController.php(1283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\EmployeeController.php', 1283)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->SaveFile()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 17:01:38 --> ErrorException: Undefined variable $isinserted
+in APPPATH\Controllers\AdminController.php on line 1205.
+ 1 APPPATH\Controllers\AdminController.php(1205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isinserted', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\AdminController.php', 1205)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\AdminController->SavePDS()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 17:05:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployeeController.php on line 1283.
+ 1 APPPATH\Controllers\EmployeeController.php(1283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\EmployeeController.php', 1283)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->SaveFile()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 17:05:43 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployeeController.php on line 1283.
+ 1 APPPATH\Controllers\EmployeeController.php(1283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\EmployeeController.php', 1283)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->SaveFile()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 17:05:44 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\EmployeeController.php on line 1283.
+ 1 APPPATH\Controllers\EmployeeController.php(1283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\employee_project\\app\\Controllers\\EmployeeController.php', 1283)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\EmployeeController->SaveFile()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-06 17:06:02 --> ErrorException: Undefined variable $title
+in APPPATH\Views\Index\Pages\register.php on line 16.
+ 1 APPPATH\Views\Index\Pages\register.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php', 16)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\employee_project\\app\\Views\\Index\\Pages\\register.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/Index/Pages/register', [], true)
+ 5 APPPATH\Controllers\MainController.php(243): view('/Index/Pages/register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\MainController->Registration()
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-06 17:10:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-02-06 17:10:25 --> 220 smtp.gmail.com ESMTP d9443c01a7336-21f3687c68asm7768455ad.172 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [202.90.138.28]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [202.90.138.28]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 OK d9443c01a7336-21f3687c68asm7768455ad.172 - gsmtp
+
+to: 250 2.1.5 OK d9443c01a7336-21f3687c68asm7768455ad.172 - gsmtp
+
+data: 
+The following SMTP error was encountered: 
+quit: 354 Go ahead d9443c01a7336-21f3687c68asm7768455ad.172 - gsmtp
+
+The following SMTP error was encountered: 354 Go ahead d9443c01a7336-21f3687c68asm7768455ad.172 - gsmtp
+
