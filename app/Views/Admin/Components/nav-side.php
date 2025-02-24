@@ -13,11 +13,11 @@
                     <div class="d-flex align-items-center">
                         <!-- [ Profile Image ] -->
                         <div class="flex-shrink-0">
-                            <img src="<?= session()->get('logged_imagepath') ?>" alt="user-image" class="user-avtar wid-45 rounded-circle" />
+                            <img src="<?= $user['image_path'] ?>" alt="user-image" class="user-avtar wid-45 rounded-circle" />
                         </div>
 
                         <div class="flex-grow-1 ms-3 me-2">
-                            <h6 class="mb-0"><?= session()->get('logged_fullname') ?></h6>
+                            <h6 class="mb-0"><?= $user['full_name'] ?></h6>
                             <small>Administrator</small>
                         </div>
                     </div>
