@@ -25,18 +25,18 @@ class AuthFilter implements FilterInterface
                 if ($usertype == 1) {
                     if ($controller !== 'admincontroller') {
                         session()->setFlashdata('fd_primary_toast_center', 'Unauthorized access.');
-                        return redirect()->to('admincontroller/dashboardpage');
+                        return redirect()->to('AdminController/');
                     }
                 } elseif ($usertype == 2) {
                     if ($controller !== 'employeecontroller') {
                         session()->setFlashdata('fd_primary_toast_center', 'Unauthorized access.');
-                        return redirect()->to('employeecontroller/dashboardpage');
+                        return redirect()->to('EmployeeController/DashboardPage');
                     }
                 }
             } else {
                 if ($controller !== 'maincontroller' && $controller !== 'tup' && $controller !== 'error') {
                     session()->setFlashdata('fd_primary_toast_center', 'Unauthorized access.');
-                    return redirect()->to('/tup');
+                    return redirect()->to('/');
                 }
             }
         }
@@ -45,9 +45,9 @@ class AuthFilter implements FilterInterface
         if (!$controller && $islogged) {
             session()->setFlashdata('fd_primary_toast_center', 'Cannot access.');
             if ($usertype == 1) {
-                return redirect()->to('admincontroller/dashboardpage');
+                return redirect()->to('AdminController/DashboardPage');
             } elseif ($usertype == 2) {
-                return redirect()->to('employeecontroller/dashboardpage');
+                return redirect()->to('EmployeeController/DashboardPage');
             }
         }
     }
