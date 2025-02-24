@@ -6,8 +6,8 @@ use CodeIgniter\Config\BaseConfig;
 
 class Email extends BaseConfig
 {
-    public string $fromEmail  = 'tupt';
-    public string $fromName   = 'TUPT Employee System';
+    public string $fromEmail = 'recordmanagementsystem@tupt-rms.com';
+    public string $fromName = 'TUP-Taguig RMS';
     public string $recipients = '';
 
     /**
@@ -28,24 +28,22 @@ class Email extends BaseConfig
     /**
      * SMTP Server Hostname
      */
-    public string $SMTPHost = 'smtp.gmail.com';
+    public string $SMTPHost = 'smtp.hostinger.com';
 
     /**
      * SMTP Username
      */
-    // public string $SMTPUser = 'roselle_honorio@tup.edu.ph';  
-    public string $SMTPUser = 'paulianjucar2020@gmail.com';
+    public string $SMTPUser = 'recordmanagementsystem@tupt-rms.com';
 
     /**
      * SMTP Password
      */
-    // public string $SMTPPass = 'yabu ligo xjnj lxad';
-    public string $SMTPPass = 'cayw jitl dpjb lgps';
+    public string $SMTPPass = 'T@nQi!1997';
 
     /**
      * SMTP Port
      */
-    public int $SMTPPort = 587;
+    public int $SMTPPort = 465;
 
     /**
      * SMTP Timeout (in seconds)
@@ -64,7 +62,7 @@ class Email extends BaseConfig
      *             to the server. 'ssl' means implicit SSL. Connection on port
      *             465 should set this to ''.
      */
-    public string $SMTPCrypto = 'tls';
+    public string $SMTPCrypto = 'ssl';
 
     /**
      * Enable word-wrap
@@ -120,4 +118,6 @@ class Email extends BaseConfig
      * Enable notify message from server
      */
     public bool $DSN = false;
+
 }
+
