@@ -4,7 +4,7 @@
 <div class="card my-5">
     <div class="card-body">
         <div class="text-center">
-            <h1 class="text-center">Hostinger!</h1>
+            <h1 class="text-center">Welcome Back!</h1>
             <p class="mb-4">Your setup experience will be streamlined accordingly</p>
         </div>
 
