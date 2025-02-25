@@ -12,8 +12,8 @@
                 <div class="card-body">
                     <div class="d-flex align-items-center">
                         <!-- [ Profile Image ] -->
-                        <div class="flex-shrink-0">
-                            <img src="<?= $user['image_path'] ?>" alt="user-image" class="user-avtar wid-45 rounded-circle" />
+                        <div class="flex-shrink-0" style="width: 42px; height: 42px;">
+                            <img src="<?= $user['image_path'] ?>" alt="user-image" class="rounded-circle img-fluid w-100 h-100" style="object-fit: cover;" />
                         </div>
 
                         <div class="flex-grow-1 ms-3 me-2">
