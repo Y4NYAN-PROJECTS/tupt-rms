@@ -164,13 +164,7 @@ class AdminController extends BaseController
         $emailService->setTo($email);
         $emailService->setSubject($emailsubject);
         $emailService->setMessage($emailmessage);
-        if ($emailService->send()) {
-            echo "sent";
-            exit;
-        } else {
-            echo "failed";
-            exit;
-        }
+        $emailService->send();
     }
 
     public function PDSPrintPage()
