@@ -31,7 +31,7 @@
 
                 <!-- [ Profile Avatar ] -->
                 <li class="dropdown pc-h-item header-user-profile">
-                    <a class="pc-head-link dropdown-toggle arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" data-bs-auto-close="outside" aria-expanded="false" style="width: 42px; height: 42px;">
+                    <a class="pc-head-link dropdown-toggle arrow-none me-0" style="width: 42px; height: 42px;" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" data-bs-auto-close="outside" aria-expanded="false">
                         <img src="<?= $user['image_path'] ?>" alt="user-image" class="rounded-circle img-fluid w-100 h-100" style="object-fit: cover;" />
                     </a>
                     <div class="dropdown-menu dropdown-user-profile dropdown-menu-end pc-h-dropdown">

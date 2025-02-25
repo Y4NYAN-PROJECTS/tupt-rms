@@ -15,7 +15,6 @@
                         <div class="flex-shrink-0" style="width: 42px; height: 42px;">
                             <img src="<?= $user['image_path'] ?>" alt="user-image" class="rounded-circle img-fluid w-100 h-100" style="object-fit: cover;" />
                         </div>
-
                         <!-- [ Full Name & User Type ] -->
                         <div class="flex-grow-1 ms-3 me-2">
                             <h6 class="mb-0"><?= $user['full_name'] ?></h6>
@@ -52,7 +51,7 @@
                         <span class="pc-micon">
                             <i class="ti ti-file-analytics"></i>
                         </span>
-                        <span class="pc-mtext">PDS</span>
+                        <span class="pc-mtext">Personal Data Sheet</span>
                     </a>
                 </li>
 
