@@ -39,7 +39,7 @@
             </div>
         </form>
 
-        <a href="/" class="d-flex justify-content-center align-items-center text-sm mt-3">
+        <a href="/logout" class="d-flex justify-content-center align-items-center text-sm mt-3">
             <i data-feather="chevron-left"></i> Cancel
         </a>
     </div>
