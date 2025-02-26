@@ -234,7 +234,7 @@
             }
             ?>
         ],
-        colors: ['#4680FF', '#E58A00', '#2CA87F', '#4640FF'],
+        colors: ['#BC1515', '#19ACE6', '#E6AC19', '#1C6D17'],
         labels: [
             <?php foreach ($analytics['categories'] as $category) {
                 $title = $category['department_category_code'];
