@@ -11,6 +11,7 @@ use App\Models\GenderModel;
 use App\Models\LogsModel;
 use App\Models\PlantillaModel;
 use App\Models\RoleModel;
+use App\Models\EmployeeTypeModel;
 use CodeIgniter\I18n\Time;
 use CodeIgniter\Controller;
 use CodeIgniter\HTTP\CLIRequest;
@@ -135,6 +136,8 @@ abstract class BaseController extends Controller
         $degreeModel = new DegreeModel();
         $this->data['degrees'] = $degreeModel->findAll();
 
+        $employeetypeModel = new EmployeeTypeModel();
+        $this->data['employeetypes'] = $employeetypeModel->findAll();
     }
 
     private function loadDateTime()

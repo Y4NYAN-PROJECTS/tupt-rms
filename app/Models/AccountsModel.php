@@ -21,6 +21,7 @@ class AccountsModel extends Model
         'mobile_number',
         'birthdate',
         'sex',
+        'employee_type_id',
         'department_id',
         'plantilla_id',
         'role_id',
@@ -39,9 +40,10 @@ class AccountsModel extends Model
     public function analyticsData()
     {
         $builder = $this->builder();
-        $builder->select('tblaccounts.*, tbldepartment.*, tbldepartmentcategory.*');
+        $builder->select('tblaccounts.*, tbldepartment.*, tbldepartmentcategory.*, tblemployeetype.*');
         $builder->join('tbldepartment', 'tblaccounts.department_id = tbldepartment.department_id', 'left');
         $builder->join('tbldepartmentcategory', 'tbldepartment.department_category_id = tbldepartmentcategory.department_category_id', 'left');
+        $builder->join('tblemployeetype', 'tblaccounts.employee_type_id = tblemployeetype.employee_type_id', 'left');
         $builder->where('tblaccounts.status', 2);
         $users = $builder->get()->getResultArray();
 
@@ -62,6 +64,17 @@ class AccountsModel extends Model
         foreach ($categories as $category) {
             $categoryCounts[$category['department_category_code']] = [
                 'department_category_code' => $category['department_category_code'],
+                'count' => 0
+            ];
+        }
+
+        $employeetypeModel = new EmployeeTypeModel();
+        $employeetypes = $employeetypeModel->findAll();
+
+        $employeeCounts = [];
+        foreach ($employeetypes as $type) {
+            $employeeCounts[$type['employee_type_name']] = [
+                'employee_type_name' => $type['employee_type_name'],
                 'count' => 0
             ];
         }
@@ -99,6 +112,10 @@ class AccountsModel extends Model
             if (!empty($user['department_id'])) {
                 $categoryCounts[$user['department_category_code']]['count']++;
             }
+
+            if (!empty($user['employee_type_id'])) {
+                $employeeCounts[$user['employee_type_name']]['count']++;
+            }
         }
 
         // Prepare final analytics data
@@ -112,7 +129,8 @@ class AccountsModel extends Model
             'masters' => $masters,
             'doctorate' => $doctorate,
             'baccalaureate' => $baccalaureate,
-            'categories' => array_values($categoryCounts)
+            'categories' => array_values($categoryCounts),
+            'employeetypes' => array_values($employeeCounts)
         ];
 
         return $analyticsdata;
