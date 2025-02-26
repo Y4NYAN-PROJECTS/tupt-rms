@@ -157,11 +157,12 @@ class AccountsModel extends Model
     public function getUserInformation($accountid)
     {
         $builder = $this->builder();
-        $builder->select('tblaccounts.*, tblplantilla.*, tbldepartment.*, tblrole.*, tbldegree.*');
+        $builder->select('tblaccounts.*, tblplantilla.*, tbldepartment.*, tblrole.*, tbldegree.*, tblemployeetype.*');
         $builder->join('tblplantilla', 'tblaccounts.plantilla_id = tblplantilla.plantilla_id', 'left');
         $builder->join('tbldepartment', 'tblaccounts.department_id = tbldepartment.department_id', 'left');
         $builder->join('tblrole', 'tblaccounts.role_id = tblrole.role_id', 'left');
         $builder->join('tbldegree', 'tblaccounts.degree_id = tbldegree.degree_id', 'left');
+        $builder->join('tblemployeetype', 'tblaccounts.employee_type_id = tblemployeetype.employee_type_id', 'left');
         $builder->where('tblaccounts.account_id', $accountid);
 
         $result = $builder->get()->getRowArray();
@@ -171,10 +172,12 @@ class AccountsModel extends Model
     public function getVisitInformation($accountcode)
     {
         $builder = $this->builder();
-        $builder->select('tblaccounts.*, tblplantilla.*, tbldepartment.*, tblrole.*');
+        $builder->select('tblaccounts.*, tblplantilla.*, tbldepartment.*, tblrole.*, tbldegree.*, tblemployeetype.*');
         $builder->join('tblplantilla', 'tblaccounts.plantilla_id = tblplantilla.plantilla_id', 'left');
         $builder->join('tbldepartment', 'tblaccounts.department_id = tbldepartment.department_id', 'left');
         $builder->join('tblrole', 'tblaccounts.role_id = tblrole.role_id', 'left');
+        $builder->join('tbldegree', 'tblaccounts.degree_id = tbldegree.degree_id', 'left');
+        $builder->join('tblemployeetype', 'tblaccounts.employee_type_id = tblemployeetype.employee_type_id', 'left');
         $builder->where('tblaccounts.account_code', $accountcode);
 
         $result = $builder->get()->getRowArray();
@@ -184,10 +187,11 @@ class AccountsModel extends Model
     public function getAccountList($status, $usertype)
     {
         $builder = $this->builder();
-        $builder->select('tblaccounts.*, tblplantilla.*, tbldepartment.*, tblrole.*');
+        $builder->select('tblaccounts.*, tblplantilla.*, tbldepartment.*, tblrole.*, tblemployeetype.*');
         $builder->join('tblplantilla', 'tblaccounts.plantilla_id = tblplantilla.plantilla_id', 'left');
         $builder->join('tbldepartment', 'tblaccounts.department_id = tbldepartment.department_id', 'left');
         $builder->join('tblrole', 'tblaccounts.role_id = tblrole.role_id', 'left');
+        $builder->join('tblemployeetype', 'tblaccounts.employee_type_id = tblemployeetype.employee_type_id', 'left');
 
         $builder->where('tblaccounts.status', $status);
         if ($usertype == 1 || $usertype == 2) {
