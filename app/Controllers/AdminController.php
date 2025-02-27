@@ -104,10 +104,6 @@ class AdminController extends BaseController
         $saverow = $accountsModel->save($accountdata);
 
         if ($saverow) {
-            if ($rqst_usertype != session()->get('logged_usertype')) {
-                return redirect()->to('/logout');
-            }
-
             // updated
             session()->setFlashdata('alert_updatesuccess', 'Updated!');
             if ($rqst_usertype == 1) {
