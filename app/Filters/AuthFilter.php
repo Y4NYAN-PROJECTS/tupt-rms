@@ -2,10 +2,10 @@
 
 namespace App\Filters;
 
+use App\Models\AccountsModel;
 use CodeIgniter\Filters\FilterInterface;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
-use App\Models\AccountsModel;
 
 
 class AuthFilter implements FilterInterface
@@ -33,18 +33,18 @@ class AuthFilter implements FilterInterface
                 if ($usertype == 1) {
                     if ($controller !== 'admincontroller') {
                         session()->setFlashdata('fd_primary_toast_center', 'Unauthorized access.');
-                        return redirect()->to('AdminController/');
+                        return redirect()->to('AdminController/DashboardPage');
                     }
                 } elseif ($usertype == 2) {
                     if ($controller !== 'employeecontroller') {
                         session()->setFlashdata('fd_primary_toast_center', 'Unauthorized access.');
-                        return redirect()->to('EmployeeController/DashboardPage');
+                        return redirect()->to('EmployeeController/Dashboardpage');
                     }
                 }
             } else {
                 if ($controller !== 'maincontroller' && $controller !== 'tup' && $controller !== 'error') {
                     session()->setFlashdata('fd_primary_toast_center', 'Unauthorized access.');
-                    return redirect()->to('/');
+                    return redirect()->to('/tup');
                 }
             }
         }
@@ -55,7 +55,7 @@ class AuthFilter implements FilterInterface
             if ($usertype == 1) {
                 return redirect()->to('AdminController/DashboardPage');
             } elseif ($usertype == 2) {
-                return redirect()->to('EmployeeController/DashboardPage');
+                return redirect()->to('EmployeeController/Dashboardpage');
             }
         }
     }

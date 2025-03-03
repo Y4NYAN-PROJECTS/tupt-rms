@@ -22,7 +22,7 @@ class MainController extends BaseController
             return redirect()->back();
         }
 
-        $rqst_idnumber = $this->request->getPost('log_idnumber');
+        $rqst_idnumber = strtoupper($this->request->getPost('log_idnumber'));
         $rqst_password = $this->request->getPost('log_password');
         $rqst_checklogin = $this->request->getPost('log_checklogin');
 
@@ -388,19 +388,6 @@ class MainController extends BaseController
     {
         session()->destroy();
         return redirect()->to('/');
-    }
-
-    public function test()
-    {
-        $fname = 'PAUL IAN';
-        $mname = 'SOLANO';
-        $lname = 'JUCAR';
-        $xname = 'Jr.';
-
-        $initial = !empty($mname) ? strtoupper(substr($mname, 0, 1)) . '.' : '';
-        $fullname = ucfirst(strtolower($fname)) . ' ' . $initial . ' ' . ucfirst(strtolower($lname)) . ' ' . ($xname ? ucfirst(strtolower($xname)) : '');
-
-        echo $fullname;
     }
 
 }

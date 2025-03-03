@@ -91,10 +91,23 @@ class AdminController extends BaseController
         $rqst_employeetypeid = $this->request->getPost('admn_employeetype');
         $rqst_departmentid = $this->request->getPost('admn_department');
         $rqst_usertype = $this->request->getPost('admn_usertype');
+        $rqst_plantillaid = $this->request->getPost('admn_plantilla');
         $rqst_accountid = $this->request->getPost('admn_accountid');
+
+        $accountsModel = new AccountsModel();
+        $account = $accountsModel->find($rqst_accountid);
+
+        $plantillaModel = new PlantillaModel();
+        $plantilla = $plantillaModel->find($rqst_plantillaid);
+        $plantillatitlecode = $plantilla['plantilla_titlecode'];
+
+        // New ID Number
+        $explode = explode('-', $account['id_number']);
+        $idnumber = $plantillatitlecode . '-' . $explode[1] . '-' . $explode[2];
 
         $accountdata = [
             'account_id' => $rqst_accountid,
+            'id_number' => $idnumber,
             'role_id' => $rqst_roleid,
             'employee_type_id' => $rqst_employeetypeid,
             'department_id' => $rqst_departmentid,
@@ -104,6 +117,10 @@ class AdminController extends BaseController
         $saverow = $accountsModel->save($accountdata);
 
         if ($saverow) {
+            if ($account['user_type'] != $rqst_usertype) {
+                $this->removeUserSession($rqst_accountid);
+            }
+
             // updated
             session()->setFlashdata('alert_updatesuccess', 'Updated!');
             if ($rqst_usertype == 1) {
@@ -114,6 +131,23 @@ class AdminController extends BaseController
         } else {
             session()->setFlashdata('alert_failed', 'Failed!');
             return redirect()->back();
+        }
+    }
+
+    private function removeUserSession($accountId)
+    {
+        $db = \Config\Database::connect();
+
+        // Get session ID of the affected user
+        $query = $db->table('ci_sessions')
+            ->select('id')
+            ->like('data', 'user_id|s:' . strlen($accountId) . ':"' . $accountId . '";')
+            ->get();
+
+        if ($query->getNumRows() > 0) {
+            foreach ($query->getResult() as $row) {
+                $db->table('ci_sessions')->where('id', $row->id)->delete();
+            }
         }
     }
 
