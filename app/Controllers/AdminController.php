@@ -102,8 +102,16 @@ class AdminController extends BaseController
         $plantillatitlecode = $plantilla['plantilla_titlecode'];
 
         // New ID Number
-        $explode = explode('-', $account['id_number']);
-        $idnumber = $plantillatitlecode . '-' . $explode[1] . '-' . $explode[2];
+        $currentidnumber = explode('-', $account['id_number']);
+        $wordcount = 0;
+        foreach ($currentidnumber as $segment) {
+            if (preg_match('/[a-zA-Z]/', $segment)) {
+                $wordcount++;
+            }
+        }
+        $numbers = array_slice($currentidnumber, $wordcount);
+        $numericPart = implode('-', $numbers);
+        $idnumber = $plantillatitlecode . '-' . $numericPart;
 
         $accountdata = [
             'account_id' => $rqst_accountid,
