@@ -119,6 +119,7 @@ class AdminController extends BaseController
             'role_id' => $rqst_roleid,
             'employee_type_id' => $rqst_employeetypeid,
             'department_id' => $rqst_departmentid,
+            'plantilla_id' => $rqst_plantillaid,
             'user_type' => $rqst_usertype,
         ];
         $accountsModel = new AccountsModel();
