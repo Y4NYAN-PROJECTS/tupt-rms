@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\FilesModel;
 use App\Models\FoldersModel;
+use App\Models\PromotionHistoryModel;
 use App\Models\RoleModel;
 use App\Models\AccountsModel;
 use App\Models\DepartmentModel;
@@ -27,6 +28,8 @@ use App\Models\PDSVoluntaryWorkModel;
 use App\Models\PDSWorkExperienceItemsModel;
 use App\Models\PDSWorkExperienceModel;
 use App\Models\PlantillaModel;
+use Dompdf\Dompdf;
+use Dompdf\Options;
 
 class AdminController extends BaseController
 {
@@ -35,11 +38,6 @@ class AdminController extends BaseController
         return view('/Admin/Pages/dashboard', $this->data);
     }
 
-    public function LogComplete($logid)
-    {
-        $logsModel = new LogsModel();
-        $logsModel->update($logid, ['is_complete' => 1]);
-    }
 
     public function AccountsRequestPage()
     {
@@ -94,6 +92,7 @@ class AdminController extends BaseController
         $rqst_plantillaid = $this->request->getPost('admn_plantilla');
         $rqst_accountid = $this->request->getPost('admn_accountid');
 
+        // New ID Number
         $accountsModel = new AccountsModel();
         $account = $accountsModel->find($rqst_accountid);
 
@@ -165,8 +164,12 @@ class AdminController extends BaseController
         $accountsModel = new AccountsModel();
         $visit = $accountsModel->getVisitInformation($accountcode);
 
+        $promotionhistoryModel = new PromotionHistoryModel();
+        $promtionhistories = $promotionhistoryModel->getPromotionHistory($visit['account_id']);
+
         $data = [
-            'visit' => $visit
+            'visit' => $visit,
+            'promtionhistories' => $promtionhistories
         ];
         $data = array_merge($this->data, $data);
         return view('/Admin/Pages/profile-visit', $data);
@@ -2116,7 +2119,6 @@ class AdminController extends BaseController
         return redirect()->to('/AdminController/AccountProfilePage#change-password');
     }
 
-
     public function RedirectToProfileUpdate()
     {
         session()->setFlashdata('passwordFormData', [
@@ -2148,6 +2150,45 @@ class AdminController extends BaseController
         return $code;
     }
 
+    public function LogComplete($logid)
+    {
+        $logsModel = new LogsModel();
+        $logsModel->update($logid, ['is_complete' => 1]);
+    }
+
+    public function LogDownloadFile()
+    {
+        $filename = $this->request->getPost('file_name');
+        $name = $this->data['user']['full_name'];
+        $title = 'File Download';
+        $category = 'filedownload';
+
+        $phrases = [
+            "$name just grabbed your file - '$filename'.",
+            "$name has downloaded '$filename'.",
+            "$name accessed your shared file: '$filename'.",
+            "$name downloaded the file '$filename'.",
+            "'$filename' was downloaded by $name.",
+            "Heads up! $name just got their hands on '$filename'."
+        ];
+        $description = $phrases[array_rand($phrases)];
+
+        $logsModel = new LogsModel();
+        $logdata = [
+            'account_id' => $this->accountid,
+            'category' => $category,
+            'title' => $title,
+            'description' => $description
+        ];
+
+        if ($logsModel->insert($logdata)) {
+            return $this->response->setJSON(['success' => true]);
+        } else {
+            return $this->response->setJSON(['success' => false, 'message' => 'Failed to approve account.']);
+        }
+    }
+
+
     public function RemoveChangeEmailSessions()
     {
         session()->remove([
@@ -2156,6 +2197,36 @@ class AdminController extends BaseController
             's_otptime',
             's_email',
         ]);
+    }
+
+    public function generatePDF()
+    {
+        // Load Dompdf with options
+        $options = new Options();
+        $options->set('isHtml5ParserEnabled', true);
+        $options->set('isRemoteEnabled', true); // Enable external image loading
+
+        $dompdf = new Dompdf($options);
+
+        // Prepare data to pass to the view
+        $data = [
+
+        ];
+
+        // Render the HTML template
+        $html = view('/Admin/Print/print-template', $data);
+
+        // Load HTML into Dompdf
+        $dompdf->loadHtml($html);
+
+        // Set paper size and orientation
+        $dompdf->setPaper('A4', 'portrait');
+
+        // Render the PDF
+        $dompdf->render();
+
+        // Output the PDF for download
+        $dompdf->stream('document.pdf', ['Attachment' => false]);
     }
 
 }
