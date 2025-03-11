@@ -24,7 +24,7 @@
                 </div>
             </div>
 
-            <ul class="pc-navbar pb-5">
+            <ul class="pc-navbar">
                 <!-- [ Caption ] -->
                 <li class="pc-item pc-caption">
                     <label>Navigation</label>
