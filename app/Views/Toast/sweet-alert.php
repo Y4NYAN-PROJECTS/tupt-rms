@@ -1,533 +1,232 @@
-<!-- [ Administrator Side Alerts ] -->
+<!-- [ Alert Types ] -->
+<!-- question -->
+<!-- success -->
+<!-- error -->
+<!-- warning -->
+<!-- info -->
+
 <script>
-    // [ Accounts - Approve ]
-    document.addEventListener('click', function (event) {
-        if (event.target.closest('.approve-account-button')) {
-            const approveButton = event.target.closest('.approve-account-button');
-            const approveID = approveButton.dataset.accountId;
-
-            Swal.fire({
-                title: 'Approve Request',
-                text: 'Are you sure you want to approve this request?',
-                icon: 'warning',
-                showCancelButton: true,
-                confirmButtonText: 'Yes, Approve Request!',
-                cancelButtonText: 'Cancel',
-                reverseButtons: true
-            })
-                .then((result) => {
-                    if (result.isConfirmed) {
-                        $.ajax({
-                            url: '/AdminController/RequestApprove',
-                            type: 'POST',
-                            data: {
-                                account_id: approveID
-                            },
-
-                            success: function (response) {
-                                if (response.success) {
-                                    Swal.fire({
-                                        title: 'Approved!',
-                                        text: 'The account has been successfully approved.',
-                                        icon: 'success',
-                                        confirmButtonText: 'Close'
-                                    }).then(() => {
-                                        location.reload();
-                                    });
-                                } else {
-                                    Swal.fire({
-                                        title: 'Failed!',
-                                        text: response.message,
-                                        icon: 'error',
-                                        confirmButtonText: 'Close'
-                                    }).then(() => {
-                                        location.reload();
-                                    });
-                                }
-                            },
-
-                            error: function (xhr, status, error) {
-                                console.error('AJAX Error:', error);
-                                Swal.fire({
-                                    title: 'Something went Wrong!',
-                                    text: 'An issue occurred during the process.',
-                                    icon: 'error',
-                                    confirmButtonText: 'Close',
-
-                                    ...timerConfig
-                                }).then(() => {
-                                    location.reload();
-                                });
-                            }
-                        });
+    const timerConfig = {
+        timer: 2000,
+        timerProgressBar: true,
+        willOpen: () => {
+            timerInterval = setInterval(() => {
+                const popup = Swal.getPopup(); // Get the popup element
+                if (popup) {
+                    const timerText = popup.querySelector('b');
+                    if (timerText) {
+                        timerText.textContent = Swal.getTimerLeft();
                     }
-                });
-        }
-    });
+                }
+            }, 100);
+        },
+    }
+</script>
 
-    // [ Accounts - Decline ]
-    document.addEventListener('click', function (event) {
-        if (event.target.closest('.decline-account-button')) {
-            const declineButton = event.target.closest('.decline-account-button');
-            const declineID = declineButton.dataset.accountId;
-            const logID = declineButton.dataset.logId;
+<!-- [ General Alerts ] -->
+<?php if (!empty(session()->get('alert_registersuccess'))): ?>
+    <script>
+        const sessionMessage = "<?= session()->get('alert_registersuccess'); ?>";
+        let timerInterval;
+        Swal.fire({
+            icon: 'success',
+            title: sessionMessage,
+            html: 'Request sent. Wait for the admin approval.',
 
-            Swal.fire({
-                title: 'Decline Request',
-                text: 'Are you sure you want to decline this request?',
-                icon: 'warning',
-                showCancelButton: true,
-                confirmButtonText: 'Yes, Decline Request!',
-                cancelButtonText: 'Cancel',
-                reverseButtons: true
-            })
-                .then((result) => {
-                    if (result.isConfirmed) {
-                        $.ajax({
-                            url: '/AdminController/RequestDecline',
-                            type: 'POST',
-                            data: {
-                                account_id: declineID,
-                                log_id: logID,
-                            },
+            showCancelButton: false,
+            showDenyButton: false,
+            confirmButtonText: 'Continue',
+            denyButtonText: 'Cancel',
 
-                            success: function (response) {
-                                if (response.success) {
-                                    Swal.fire({
-                                        title: 'Declined',
-                                        text: 'The account request has been successfully declined.',
-                                        icon: 'error',
-                                        confirmButtonText: 'Close'
-                                    }).then(() => {
-                                        location.reload();
-                                    });
-                                } else {
-                                    Swal.fire({
-                                        title: 'Failed!',
-                                        text: response.message,
-                                        icon: 'error',
-                                        confirmButtonText: 'Close'
-                                    }).then(() => {
-                                        location.reload();
-                                    });
-                                }
-                            },
+            ...timerConfig
+        }).then((result) => {
+            if (result.dismiss === Swal.DismissReason.timer) { }
+        });
+    </script>
 
-                            error: function (xhr, status, error) {
-                                console.error('AJAX Error:', error);
-                                Swal.fire({
-                                    title: 'Something went Wrong!',
-                                    text: 'An issue occurred during the process.',
-                                    icon: 'error',
-                                    confirmButtonText: 'Close',
+    <?php session()->remove('alert_registersuccess'); ?>
+<?php endif; ?>
 
-                                    ...timerConfig
-                                }).then(() => {
-                                    location.reload();
-                                });
-                            }
-                        });
-                    }
-                });
-        }
-    });
 
-    // [ Plantilla - Delete ]
-    document.addEventListener('click', function (event) {
-        if (event.target.closest('.delete-plantilla-button')) {
-            const deleteButton = event.target.closest('.delete-plantilla-button');
-            const deleteID = deleteButton.dataset.plantillaId;
+<?php if (!empty(session()->get('alert_complete'))): ?>
+    <script>
+        const sessionMessage = "<?= session()->get('alert_complete'); ?>";
+        let timerInterval;
+        Swal.fire({
+            icon: 'success',
+            title: sessionMessage,
+            html: 'Congratulations for completing PDS!',
 
-            Swal.fire({
-                title: 'Delete',
-                text: 'Are you sure you want to delete this plantillia?',
-                icon: 'warning',
-                showCancelButton: true,
-                confirmButtonText: 'Yes, Delete!',
-                cancelButtonText: 'Cancel',
-                reverseButtons: true
-            })
-                .then((result) => {
-                    if (result.isConfirmed) {
-                        $.ajax({
-                            url: '/AdminController/DeletePlantilla',
-                            type: 'POST',
-                            data: {
-                                plantilla_id: deleteID
-                            },
+            showCancelButton: false,
+            showDenyButton: false,
+            confirmButtonText: 'Continue',
+            denyButtonText: 'Cancel',
 
-                            success: function (response) {
-                                if (response.success) {
-                                    Swal.fire({
-                                        title: 'Deleted',
-                                        text: 'The plantillia has been successfully deleted.',
-                                        icon: 'error',
-                                        confirmButtonText: 'Close'
-                                    }).then(() => {
-                                        location.reload();
-                                    });
-                                } else {
-                                    Swal.fire({
-                                        title: 'Failed!',
-                                        text: response.message,
-                                        icon: 'error',
-                                        confirmButtonText: 'Close'
-                                    }).then(() => {
-                                        location.reload();
-                                    });
-                                }
-                            },
+            ...timerConfig
+        }).then((result) => {
+            if (result.dismiss === Swal.DismissReason.timer) { }
+        });
+    </script>
 
-                            error: function (xhr, status, error) {
-                                console.error('AJAX Error:', error);
-                                Swal.fire({
-                                    title: 'Something went Wrong!',
-                                    text: 'An issue occurred during the process.',
-                                    icon: 'error',
-                                    confirmButtonText: 'Close',
+    <?php session()->remove('alert_complete'); ?>
+<?php endif; ?>
 
-                                    ...timerConfig
-                                }).then(() => {
-                                    location.reload();
-                                });
-                            }
-                        });
-                    }
-                });
-        }
-    });
+<?php if (!empty(session()->get('alert_upload'))): ?>
+    <script>
+        const sessionMessage = "<?= session()->get('alert_upload'); ?>";
+        let timerInterval;
+        Swal.fire({
+            icon: 'success',
+            title: sessionMessage,
+            html: 'Your Profile Picture Uploaded Successfully',
 
-    // [Department - Delete]
-    document.addEventListener('click', function (event) {
-        if (event.target.closest('.delete-department-button')) {
-            const deleteButton = event.target.closest('.delete-department-button');
-            const deleteID = deleteButton.dataset.departmentId;
+            showCancelButton: false,
+            showDenyButton: false,
+            confirmButtonText: 'Continue',
+            denyButtonText: 'Cancel',
 
-            Swal.fire({
-                title: 'Delete',
-                text: 'Are you sure you want to delete this department?',
-                icon: 'warning',
-                showCancelButton: true,
-                confirmButtonText: 'Yes, Delete!',
-                cancelButtonText: 'Cancel',
-                reverseButtons: true
-            })
-                .then((result) => {
-                    if (result.isConfirmed) {
-                        $.ajax({
-                            url: '/AdminController/DeleteDepartment',
-                            type: 'POST',
-                            data: {
-                                department_id: deleteID
-                            },
+            ...timerConfig
+        }).then((result) => {
+            if (result.dismiss === Swal.DismissReason.timer) { }
+        });
+    </script>
 
-                            success: function (response) {
-                                if (response.success) {
-                                    Swal.fire({
-                                        title: 'Deleted',
-                                        text: response.message,
-                                        icon: 'error',
-                                        confirmButtonText: 'Close',
+    <?php session()->remove('alert_upload'); ?>
+<?php endif; ?>
 
-                                        ...timerConfig
-                                    }).then(() => {
-                                        location.reload();
-                                    });
-                                } else {
-                                    Swal.fire({
-                                        title: 'Failed!',
-                                        text: response.message,
-                                        icon: 'error',
-                                        confirmButtonText: 'Close'
-                                    }).then(() => {
-                                        location.reload();
-                                    });
-                                }
-                            },
+<?php if (!empty(session()->get('alert_insertsuccess'))): ?>
+    <script>
+        const sessionMessage = "<?= session()->get('alert_insertsuccess'); ?>";
+        let timerInterval;
+        Swal.fire({
+            icon: 'success',
+            title: sessionMessage,
+            html: 'Added Item Successfully!',
 
-                            error: function (xhr, status, error) {
-                                console.error('AJAX Error:', error);
-                                Swal.fire({
-                                    title: 'Something went Wrong!',
-                                    text: 'An issue occurred during the process.',
-                                    icon: 'error',
-                                    confirmButtonText: 'Close',
+            showCancelButton: false,
+            showDenyButton: false,
+            confirmButtonText: 'Continue',
+            denyButtonText: 'Cancel',
 
-                                    ...timerConfig
-                                }).then(() => {
-                                    location.reload();
-                                });
-                            }
-                        });
-                    }
-                });
-        }
-    });
+            ...timerConfig
+        }).then((result) => {
+            if (result.dismiss === Swal.DismissReason.timer) { }
+        });
+    </script>
 
-    // [ Role - Delete ]
-    document.addEventListener('click', function (event) {
-        if (event.target.closest('.delete-role-button')) {
-            const deleteButton = event.target.closest('.delete-role-button');
-            const deleteID = deleteButton.dataset.roleId;
+    <?php session()->remove('alert_insertsuccess'); ?>
+<?php endif; ?>
 
-            Swal.fire({
-                title: 'Delete',
-                text: 'Are you sure you want to delete this role?',
-                icon: 'warning',
-                showCancelButton: true,
-                confirmButtonText: 'Yes, Delete!',
-                cancelButtonText: 'Cancel',
-                reverseButtons: true
-            })
-                .then((result) => {
-                    if (result.isConfirmed) {
-                        $.ajax({
-                            url: '/AdminController/DeleteRole',
-                            type: 'POST',
-                            data: {
-                                role_id: deleteID
-                            },
+<?php if (!empty(session()->get('alert_deletesuccess'))): ?>
+    <script>
+        const sessionMessage = "<?= session()->get('alert_deletesuccess'); ?>";
+        let timerInterval;
+        Swal.fire({
+            icon: 'error',
+            title: sessionMessage,
+            html: 'Deleted Item/s Successfully!',
 
-                            success: function (response) {
-                                if (response.success) {
-                                    Swal.fire({
-                                        title: 'Deleted',
-                                        text: 'The role has been successfully deleted.',
-                                        icon: 'error',
-                                        confirmButtonText: 'Close'
-                                    }).then(() => {
-                                        location.reload();
-                                    });
-                                } else {
-                                    Swal.fire({
-                                        title: 'Failed!',
-                                        text: response.message,
-                                        icon: 'error',
-                                        confirmButtonText: 'Close'
-                                    }).then(() => {
-                                        location.reload();
-                                    });
-                                }
-                            },
+            showCancelButton: false,
+            showDenyButton: false,
+            confirmButtonText: 'Continue',
+            denyButtonText: 'Cancel',
 
-                            error: function (xhr, status, error) {
-                                console.error('AJAX Error:', error);
-                                Swal.fire({
-                                    title: 'Something went Wrong!',
-                                    text: 'An issue occurred during the process.',
-                                    icon: 'error',
-                                    confirmButtonText: 'Close',
+            ...timerConfig
+        }).then((result) => {
+            if (result.dismiss === Swal.DismissReason.timer) { }
+        });
+    </script>
 
-                                    ...timerConfig
-                                }).then(() => {
-                                    location.reload();
-                                });
-                            }
-                        });
-                    }
-                });
-        }
-    });
+    <?php session()->remove('alert_deletesuccess'); ?>
+<?php endif; ?>
 
-    // [ Folder - Delete ]
-    document.addEventListener('click', function (event) {
-        if (event.target.closest('.folder-delete-button')) {
-            const deleteButton = event.target.closest('.folder-delete-button');
-            const deleteID = deleteButton.dataset.folderId;
+<?php if (!empty(session()->get('alert_updatesuccess'))): ?>
+    <script>
+        const sessionMessage = "<?= session()->get('alert_updatesuccess'); ?>";
+        let timerInterval;
+        Swal.fire({
+            icon: 'success',
+            title: sessionMessage,
+            html: 'Your updates have been saved and applied.',
 
-            Swal.fire({
-                title: 'Confirm Delete!',
-                text: 'All folder and files inside this folder will be permanently delete.',
-                icon: 'warning',
-                showCancelButton: true,
-                confirmButtonText: 'Yes, Delete!',
-                cancelButtonText: 'Cancel',
-                reverseButtons: true
-            })
-                .then((result) => {
-                    if (result.isConfirmed) {
-                        $.ajax({
-                            url: '/AdminController/DeleteFolder',
-                            type: 'POST',
-                            data: {
-                                folder_id: deleteID
-                            },
+            showCancelButton: false,
+            showDenyButton: false,
+            confirmButtonText: 'Continue',
+            denyButtonText: 'Cancel',
 
-                            success: function (response) {
-                                if (response.success) {
-                                    Swal.fire({
-                                        title: 'Folder Deleted',
-                                        text: 'Folder and files have been deleted permanently.',
-                                        icon: 'error',
-                                        confirmButtonText: 'Close'
-                                    }).then(() => {
-                                        location.reload();
-                                    });
-                                } else {
-                                    Swal.fire({
-                                        title: 'Failed!',
-                                        text: response.message,
-                                        icon: 'error',
-                                        confirmButtonText: 'Close'
-                                    }).then(() => {
-                                        location.reload();
-                                    });
-                                }
-                            },
+            ...timerConfig
+        }).then((result) => {
+            if (result.dismiss === Swal.DismissReason.timer) { }
+        });
+    </script>
 
-                            error: function (xhr, status, error) {
-                                console.error('AJAX Error:', error);
-                                Swal.fire({
-                                    title: 'Something went Wrong!',
-                                    text: 'An issue occurred during the process.',
-                                    icon: 'error',
-                                    confirmButtonText: 'Close',
+    <?php session()->remove('alert_updatesuccess'); ?>
+<?php endif; ?>
 
-                                    ...timerConfig
-                                }).then(() => {
-                                    location.reload();
-                                });
-                            }
-                        });
-                    }
-                });
-        }
-    });
+<?php if (!empty(session()->get('alert_failed'))): ?>
+    <script>
+        const sessionMessage = "<?= session()->get('alert_failed'); ?>";
+        let timerInterval;
+        Swal.fire({
+            icon: 'error',
+            title: sessionMessage,
+            html: 'An issue occurred, Sorry for the inconvience.',
 
-    // [ File - Delete ]
-    document.addEventListener('click', function (event) {
-        if (event.target.closest('.file-delete-button')) {
-            const deleteButton = event.target.closest('.file-delete-button');
-            const deleteID = deleteButton.dataset.fileId;
+            showCancelButton: false,
+            showDenyButton: false,
+            confirmButtonText: 'Continue',
+            denyButtonText: 'Cancel',
 
-            console.log('file id:' + deleteID);
+            ...timerConfig
+        }).then((result) => {
+            if (result.dismiss === Swal.DismissReason.timer) { }
+        });
+    </script>
 
-            Swal.fire({
-                title: 'Confirm Delete!',
-                text: 'This file will be permanently delete.',
-                icon: 'warning',
-                showCancelButton: true,
-                confirmButtonText: 'Yes, Delete!',
-                cancelButtonText: 'Cancel',
-                reverseButtons: true
-            })
-                .then((result) => {
-                    if (result.isConfirmed) {
-                        $.ajax({
-                            url: '/AdminController/DeleteFile',
-                            type: 'POST',
-                            data: {
-                                file_id: deleteID
-                            },
+    <?php session()->remove('alert_failed'); ?>
+<?php endif; ?>
 
-                            success: function (response) {
-                                if (response.success) {
-                                    Swal.fire({
-                                        title: 'File Deleted',
-                                        text: 'The file have been deleted permanently.',
-                                        icon: 'error',
-                                        confirmButtonText: 'Close'
-                                    }).then(() => {
-                                        location.reload();
-                                    });
-                                } else {
-                                    Swal.fire({
-                                        title: 'Failed!',
-                                        text: response.message,
-                                        icon: 'error',
-                                        confirmButtonText: 'Close'
-                                    }).then(() => {
-                                        location.reload();
-                                    });
-                                }
-                            },
+<?php if (!empty(session()->get('alert_failedpromotion'))): ?>
+    <script>
+        const sessionMessage = "<?= session()->get('alert_failedpromotion'); ?>";
+        let timerInterval;
+        Swal.fire({
+            icon: 'error',
+            title: sessionMessage,
+            html: 'Promotion on this date already exists!',
 
-                            error: function (xhr, status, error) {
-                                console.error('AJAX Error:', error);
-                                Swal.fire({
-                                    title: 'Something went Wrong!',
-                                    text: 'An issue occurred during the process.',
-                                    icon: 'error',
-                                    confirmButtonText: 'Close',
+            showCancelButton: false,
+            showDenyButton: false,
+            confirmButtonText: 'Continue',
+            denyButtonText: 'Cancel',
 
-                                    ...timerConfig
-                                }).then(() => {
-                                    location.reload();
-                                });
-                            }
-                        });
-                    }
-                });
-        }
-    });
+            ...timerConfig
+        }).then((result) => {
+            if (result.dismiss === Swal.DismissReason.timer) { }
+        });
+    </script>
 
-    // [ Promotion History - Delete ]
-    document.addEventListener('click', function (event) {
-        if (event.target.closest('.promotion-delete-button')) {
-            const deleteButton = event.target.closest('.promotion-delete-button');
-            const promotionId = deleteButton.dataset.promotionId;
-            const accountId = deleteButton.dataset.accountId;
+    <?php session()->remove('alert_failedpromotion'); ?>
+<?php endif; ?>
 
-            console.log('promotion id:' + promotionId);
-            console.log('account id:' + accountId);
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        if (document.querySelector('.ongoing-button')) {
+            document.addEventListener('click', function (event) {
+                const deleteButton = event.target.closest('.ongoing-button');
 
-            Swal.fire({
-                title: 'Confirm Delete!',
-                text: 'This promotion history will be permanently delete.',
-                icon: 'warning',
-                showCancelButton: true,
-                confirmButtonText: 'Yes, Delete!',
-                cancelButtonText: 'Cancel',
-                reverseButtons: true
-            })
-                .then((result) => {
-                    if (result.isConfirmed) {
-                        $.ajax({
-                            url: '/AdminController/DeletePromotion',
-                            type: 'POST',
-                            data: {
-                                promotion_id: promotionId,
-                                account_id: accountId
-                            },
-
-                            success: function (response) {
-                                if (response.success) {
-                                    Swal.fire({
-                                        title: 'History Deleted',
-                                        text: 'The promotion history have been deleted permanently.',
-                                        icon: 'error',
-                                        confirmButtonText: 'Close'
-                                    }).then(() => {
-                                        location.reload();
-                                    });
-                                } else {
-                                    Swal.fire({
-                                        title: 'Failed!',
-                                        text: response.message,
-                                        icon: 'error',
-                                        confirmButtonText: 'Close'
-                                    }).then(() => {
-                                        location.reload();
-                                    });
-                                }
-                            },
-
-                            error: function (xhr, status, error) {
-                                console.error('AJAX Error:', error);
-                                Swal.fire({
-                                    title: 'Something went Wrong!',
-                                    text: 'An issue occurred during the process.',
-                                    icon: 'error',
-                                    confirmButtonText: 'Close',
-
-                                    ...timerConfig
-                                }).then(() => {
-                                    location.reload();
-                                });
-                            }
-                        });
-                    }
-                });
+                if (deleteButton) {
+                    Swal.fire({
+                        title: 'Not Available',
+                        text: 'This feature is currently under construction.',
+                        icon: 'warning',
+                        showCancelButton: true,
+                        confirmButtonText: 'Okay',
+                        cancelButtonText: 'Close',
+                        reverseButtons: true
+                    });
+                }
+            });
         }
     });
 </script>
