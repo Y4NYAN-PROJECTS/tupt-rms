@@ -8,7 +8,7 @@
             <!-- [ Breadcrumbs ] -->
             <div class="col-md-12">
                 <ul class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
                     <li class="breadcrumb-item">PDS</li>
                 </ul>
             </div>
@@ -529,8 +529,6 @@
                                     <label class="form-label" for="form-mthrmn">Middle Name</label>
                                     <input type="text" class="form-control" id="form-mthrmn" name="fmly_mother_middlename" placeholder="Middle Name" value="<?= $checkfamily ? $family['mother_middle_name'] : '' ?>">
                                 </div>
-
-
 
                                 <input type="hidden" name="pds_column" value="family">
                                 <input type="hidden" name="fmly_id" value="<?= $checkfamily ? $family['family_id'] : '' ?>">
@@ -1169,7 +1167,7 @@
                 </form>
             </div>
 
-            <!-- Final Information -->
+            <!-- [ Final Information ]-->
             <div class="tab-pane fade <?= (session()->get('fd_column') == 'final') ? 'show active' : ''; ?>" id="final" role="tabpanel" aria-labelledby="final-tab">
                 <form action="/EmployeeController/SavePDS" method="post" enctype="multipart/form-data">
                     <div class="card">

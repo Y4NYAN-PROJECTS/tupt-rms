@@ -252,9 +252,8 @@ class EmployeeController extends BaseController
 
     public function PDSPrintPage()
     {
-        $accountid = session()->get('logged_id');
         $pdsModel = new PDSModel();
-        $pds = $pdsModel->checkPDS($accountid);
+        $pds = $pdsModel->checkPDS($this->accountid);
 
         $personaldata = '';
         $familydata = '';
@@ -370,7 +369,7 @@ class EmployeeController extends BaseController
             'referenceitems' => $referenceitems,
         ];
         $data = array_merge($this->data, $data);
-        return view('/Admin/PDS/pds-print', $data);
+        return view('/Employee/PDS/pds-print', $data);
     }
 
     // [ PDS Functions ]
@@ -649,7 +648,7 @@ class EmployeeController extends BaseController
                 'college_period_to' => $rqst_college_periodto,
                 'college_highest_level' => $rqst_college_highestlevel,
                 'college_year_graduated' => $rqst_college_yeargraduated,
-                'college_honor' => $rqst_college_honors,
+                'college_honors' => $rqst_college_honors,
             ];
             $saverow = $educationModel->save($educationData);
             $rowid = $educationModel->getInsertID();

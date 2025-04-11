@@ -1167,7 +1167,7 @@
                 </form>
             </div>
 
-            <!-- Final Information -->
+            <!-- [ Final Information ]-->
             <div class="tab-pane fade <?= (session()->get('fd_column') == 'final') ? 'show active' : ''; ?>" id="final" role="tabpanel" aria-labelledby="final-tab">
                 <form action="/AdminController/SavePDS" method="post" enctype="multipart/form-data">
                     <div class="card">
