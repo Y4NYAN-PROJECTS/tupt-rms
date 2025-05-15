@@ -88,7 +88,7 @@
                             <i class="ti ti-dots-vertical f-18"></i>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end">
-                            <a class="dropdown-item" href="/AdminController/AnalyticsPDF">Download</a>
+                            <a class="dropdown-item ongoing-button" href="/AdminController/AnalyticsPDF">Download</a>
                         </div>
                     </div>
                 </div>

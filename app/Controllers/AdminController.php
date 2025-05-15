@@ -1023,7 +1023,7 @@ class AdminController extends BaseController
                 'college_period_to' => $rqst_college_periodto,
                 'college_highest_level' => $rqst_college_highestlevel,
                 'college_year_graduated' => $rqst_college_yeargraduated,
-                'college_honor' => $rqst_college_honors,
+                'college_honors' => $rqst_college_honors,
             ];
             $saverow = $educationModel->save($educationData);
             $rowid = $educationModel->getInsertID();

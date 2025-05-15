@@ -1072,7 +1072,7 @@
                                     <tr>
                                         <?php if ($final && $final['id_picture']): ?>
                                             <td class="text-center">
-                                                <img src="/tup-files/pds-pictures/3ECC5D169541_IDPicture.jpg" alt="" style="height: 4cm;">
+                                                <img src="<?= $final['id_picture'] ?>" alt="" style="height: 4cm;">
                                             </td>
                                         <?php else: ?>
                                             <td class="text-center p-3">

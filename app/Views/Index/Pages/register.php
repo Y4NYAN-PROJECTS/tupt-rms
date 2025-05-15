@@ -201,7 +201,7 @@ if ($usertype == 1) {
 
             <div class="col-12">
                 <div class="form-check mb-2 d-flex justify-content-center align-items-center">
-                    <input class="form-check-input" type="checkbox" value="" id="agree" required>
+                    <input class="form-check-input" type="checkbox" id="agree" required>
                     <label class="form-check-label ms-2" for="agree"> I Agree to the <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Terms and Condition</a> </label>
                 </div>
             </div>
@@ -226,18 +226,98 @@ if ($usertype == 1) {
 </div>
 
 <div id="termsModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Modal Title</h5>
+                <h5 class="modal-title">Terms and Condition</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body py-0">
+                <p class="mt-0">
+                <h5 class="text-center">
+                    DIGITAL TRANSFORMATION OF TECHNOLOGICAL UNIVERSITY OF THE PHILIPPINES – TAGUIG EMPLOYEE RECORDS SYSTEM WITH API ENABLEMENT
+                </h5>
 
+                <h6 class="text-center mb-3">
+                    Terms and Conditions Data Privacy Act of 2012 (RA 10173)
+                </h6>
+
+                This Terms and Conditions statement is issued in compliance with Republic Act No. 10173, otherwise known as the Data Privacy Act of 2012, its implementing Rules and Regulations (IRR), and other relevant issuances of the National Privacy Commission (NPC). By accessing, using, or engaging with the services, I <strong id="modal-name"></strong> acknowledge and agree to the following:
+
+                <br><br>
+
+                <ol type="1">
+                    <li class="mb-3">
+                        <h5>Legal Basis for Data Processing</h5>
+                        All personal data collected, stored, and processed by our organization shall be done so in accordance with the principles of Transparency, legitimate purpose, and proportionality, as mandated by the Data Privacy Act. The lawful bases for processing personal data include:
+                        The explicit consent of the data subject;
+                        Compliance with legal obligations;
+                        Performance of a contract or legitimate business interest; and
+                        Protection of vital interests of the data subject or another individual.
+
+                        <ol type="a">
+                            <li>The explicit consent of the data subject;</li>
+                            <li>Compliance with legal obligations;</li>
+                            <li>Performance of a contract or legitimate business interest; and</li>
+                            <li>Protection of vital interests of the data subject or another individual.</li>
+                        </ol>
+                    </li>
+
+                    <li class="mb-3">
+                        <h5>Rights of Data Subjects</h5>
+                        Pursuant to Section 16 of the Data Privacy Act, data subject shall have the following rights:
+
+                        <ol type="a">
+                            <li>Right to be informed – The employee shall be informed of the purpose and extent of personal data collection</li>
+                            <li>Right to Object – The employee may withdraw consent or refuse processing under certain circumstances</li>
+                            <li>Right to Access – The employee has right to request a copy of the personal data collected</li>
+                            <li>Right to Rectification – The employee may request corrections to inaccurate or incomplete data</li>
+                            <li>Right to Erasure or Blocking – The employee may request the removal of personal data that is unlawfully obtained or no longer necessary</li>
+                            <li>Right to Data Portability – The employee may obtain and reuse the personal data for any legal purposes.</li>
+                            <li>Right to File a Complaint – The employee may lodge complaints with the National Privacy Commission (NPC) for any violations of data privacy rights.</li>
+                        </ol>
+                    </li>
+
+                    <li class="mb-3">
+                        <h5>Data Collection, Processing, and Storage</h5>
+                        <ol type="a">
+                            <li>Personal data shall NOT be shared with any unauthorized third part without the explicit consent of the data subject, unless required by law, judicial order, or regulatory authorities.</li>
+                            <li>If data sharing is necessary, Data Processing Agreements (DPAs) shall be executed to ensure compliance with data privacy standards.</li>
+                        </ol>
+                    </li>
+
+                    <li class="mb-3">
+                        <h5>Security Measures and Breach Notification</h5>
+                        <ol type="a">
+                            <li>Appropriate organizational, physical, and technical measures shall be implemented to safeguard personal data.</li>
+                            <li>Safeguards to protect its computer network against accidental, unlawful or unauthorized usage or interference with or hindering of their functioning or availability</li>
+                            <li>A process for identifying and accessing reasonably foreseeable vulnerabilities in its computer networks, and for taking preventive, corrective and mitigating action against security incidents that can lead to a security breach; and</li>
+                            <li>In the event of a data breach, affected data subject and the National Privacy Commission (NPC) shall be notified within the prescribed period, in compliance with data breach reporting requirements.</li>
+                        </ol>
+                    </li>
+
+                    <li class="mb-3">
+                        <h5>Security of Sensitive Personal Information in Government</h5>
+                        <ol type="a">
+                            All sensitive personal information maintained by the government, its agencies and instrumentalities shall be secured, as far as practicable, with the use of the most appropriate standard recognized by the information and communications technology industry, and as recommended by the Commission. The head of each government agency or instrumentality shall be responsible for complying with the security requirements mentioned herein while the Commission shall monitor the compliance and may recommend the necessary action in order to satisfy the minimum standards.
+                        </ol>
+                    </li>
+
+                    <li class="mb-3">
+                        <h5>Policy Updates and Legal Compliance</h5>
+                        <ol type="a">
+                            <li>This Terms and Conditions statement shall be reviewed periodically to align with amendments in privacy laws and regulatory policies.</li>
+                            <li>Any material changes to our data privacy practices shall be communicated through official channels</li>
+                        </ol>
+                    </li>
+                </ol>
+
+                By continuing to use the services, I affirm that I have read, understood, and agreed to the terms set forth herein.
+                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary" id="modal-agree" data-bs-dismiss="modal">Agree</button>
             </div>
         </div>
     </div>
@@ -297,6 +377,26 @@ if ($usertype == 1) {
         plantillaSelect.addEventListener('change', updateIdNumberDisplay);
         // idnumberInput.addEventListener('input', formatIdNumberInput);
         idnumberInput.addEventListener('keydown', restrictInvalidKeys);
+
+
+
+        // Terms and Condition
+        const btnAgree = document.getElementById('modal-agree');
+        const checkAgree = document.getElementById('agree');
+        const textName = document.getElementById('modal-name');
+        const fname = document.getElementById('firstname');
+        const lname = document.getElementById('lastname');
+
+        btnAgree.addEventListener('click', function () {
+            checkAgree.checked = true;
+        });
+
+        function updateModalName() {
+            textName.textContent = fname.value + ' ' + lname.value;
+        }
+
+        fname.addEventListener('input', updateModalName);
+        lname.addEventListener('input', updateModalName);
     });
 
     // [ Password ]
